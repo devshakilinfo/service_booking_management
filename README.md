@@ -117,11 +117,12 @@ graph TD
 | **Search & Filtering** | Real-time text search and 6 category chips (`Cleaning`, `Repair`, `Beauty`, `Health`, `Electric`, `Painting`) | ✅ Complete |
 | **Featured & Popular Services** | Tagged services with custom badges and review badges | ✅ Complete |
 | **Service Details** | Hero image, pricing, duration, inclusion checklist, verified specialist card | ✅ Complete |
-| **Appointment Booking** | 14-day date selector, 9 daily time slots, address prefill, notes | ✅ Complete |
+| **Appointment Booking** | 14-day date selector, dynamic live time slots engine (`GET /services/:id/slots`), address prefill, notes | ✅ Complete |
 | **Booking Confirmation** | Leaf-halo receipt modal (#SH-8492) with summary | ✅ Complete |
-| **Conflict Prevention** | Database-level and controller-level locking of booked/pending slots | ✅ Complete |
+| **Conflict Prevention** | Database-level (`uniq_active_booking_slot` partial unique index) & atomic 409 conflict handling | ✅ Complete |
 | **My Bookings Lifecycle** | Tabbed views for `Upcoming`, `Completed`, `Cancelled` with status pills | ✅ Complete |
-| **Appointment Cancellation** | Cancellation endpoint with cancellation reason recording | ✅ Complete |
+| **View Booking Details** | Dedicated customer screen with reference, service breakdown, date/time, address, notes & receipt | ✅ Complete |
+| **Appointment Cancellation** | Cancellation endpoint with cancellation reason recording & dialog | ✅ Complete |
 | **User Profile Management** | Full name, phone, address editing with persistence to PostgreSQL | ✅ Complete |
 | **Change Password** | Bcrypt comparison and updating | ✅ Complete |
 | **AI Integration** | Gemini AI chat assistant recommending services with interactive booking cards | ✅ Complete |

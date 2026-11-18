@@ -11,8 +11,11 @@
 | Component | GitHub Repository | Tech Stack | Status |
 | :--- | :--- | :--- | :---: |
 | 📱 **Mobile Application** | [**service_booking_app**](https://github.com/devshakilinfo/service_booking_app) | Flutter 3.x, Dart, Provider, REST API | ✅ Production Ready |
-| ⚙️ **Backend REST API** | [**service_booking_backend**](https://github.com/devshakilinfo/service_booking_backend) | Node.js, Express, PostgreSQL, JWT, Gemini AI | ✅ Production Ready |
+| ⚙️ **Backend REST API** | [**service_booking_backend**](https://github.com/devshakilinfo/service_booking_backend) | Node.js, Express, PostgreSQL, JWT, Gemini AI | 🟢 [Live on Render](https://service-booking-backend-es6d.onrender.com/api/health) |
 | 📑 **Master Documentation** | [**service_booking_management**](https://github.com/devshakilinfo/service_booking_management) | Unified Architecture, Postman, DB Schema | ✅ Active |
+
+> 🌐 **Live Cloud Backend Base URL:** `https://service-booking-backend-es6d.onrender.com/api`  
+> 🩺 **Health Check Endpoint:** `https://service-booking-backend-es6d.onrender.com/api/health`
 
 ---
 

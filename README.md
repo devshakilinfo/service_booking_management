@@ -44,6 +44,22 @@
 
 ---
 
+## 📸 Application Screenshots Gallery
+
+| 01. Splash Screen | 02. Home Screen | 03. Search & Filter | 04. Service Details |
+| :---: | :---: | :---: | :---: |
+| <img src="screenshots/01_splash_screen.jpg" width="220" /> | <img src="screenshots/02_home_screen.jpg" width="220" /> | <img src="screenshots/03_search_screen.jpg" width="220" /> | <img src="screenshots/04_service_details.jpg" width="220" /> |
+
+| 05. Book Appointment | 06. Booking Confirmation | 07. My Bookings Lifecycle | 08. Gemini AI Assistant |
+| :---: | :---: | :---: | :---: |
+| <img src="screenshots/05_book_appointment.jpg" width="220" /> | <img src="screenshots/06_booking_confirmed.jpg" width="220" /> | <img src="screenshots/07_my_bookings.jpg" width="220" /> | <img src="screenshots/08_ai_assistant.jpg" width="220" /> |
+
+| 09. Admin Profile / Access | 10. Admin Analytics | 11. Admin Settings |
+| :---: | :---: | :---: |
+| <img src="screenshots/09_admin_profile.jpg" width="220" /> | <img src="screenshots/10_admin_analytics.jpg" width="220" /> | <img src="screenshots/11_admin_settings.jpg" width="220" /> |
+
+---
+
 ## 🏗️ System Architecture
 
 ```mermaid

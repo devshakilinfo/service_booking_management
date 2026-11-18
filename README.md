@@ -237,13 +237,17 @@ flutter run
 
 ---
 
-### Step 4: Build Android Release APK
+### Step 4: Download Ready-to-Test Android APK
+Direct production release APKs are published and ready for immediate download on GitHub:
+👉 [**Download ServiceHub APKs (GitHub Release v1.0.0)**](https://github.com/devshakilinfo/service_booking_app/releases/tag/v1.0.0)
+* **Recommended for modern phones (64-bit):** `app-arm64-v8a-release.apk` (18.2 MB)
+* **For 32-bit devices:** `app-armeabi-v7a-release.apk` (15.8 MB)
+
+Or build locally:
 ```bash
 cd service_booking_app
-flutter build apk --release
+flutter build apk --split-per-abi
 ```
-The output APK is generated at:
-`service_booking_app/build/app/outputs/flutter-apk/app-release.apk`
 
 ---
 
